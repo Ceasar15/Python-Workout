@@ -9,7 +9,7 @@ def mysum(*data, l=0):
 def average(*data, l=0):
     answer = 0
     for i in data:
-        answer += i 
+        answer += i ddd
 
     average = answer/len(data)
     return average
