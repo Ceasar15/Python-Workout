@@ -4,15 +4,16 @@ def run_timing():
     total_time = 0
 
     while True:
-        try:
-            num = float(input('Enter a number: '))
-            print(f'{num}')
-            if not num:
-                break
-            number_of_runs += 1
-            total_time += float(num)
-        except ValueError:
-            print('That no be good value! ')
+
+        num = input('Enter a number: ')
+        
+        if not num:
+            break
+
+        number_of_runs += 1
+        total_time += float(num)
         
     average_time = total_time/ number_of_runs
-    print
+    print(f'Average is {average_time}, over {number_of_runs} runs')
+
+run_timing()
