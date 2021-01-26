@@ -5,7 +5,7 @@ def run_timing():
 
     while True:
 
-        num = input('Enter a number: ')
+        num = input('Enter 10km run time: ')
         
         if not num:
             break
@@ -18,3 +18,4 @@ def run_timing():
     print(f'Average is {average_time}, over {number_of_runs} runs')
 
 run_timing()
+
