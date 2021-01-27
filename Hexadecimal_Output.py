@@ -9,10 +9,11 @@
 
 
 def name_triangle():
+    
     nameee = input("Enter your name: ")
     for first, second in enumerate(reversed(nameee)):
         second += second
         print(str(second))
-        # print(f'{first}, {second}') 
 
 name_triangle()
+
