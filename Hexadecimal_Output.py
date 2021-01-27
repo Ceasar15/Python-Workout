@@ -9,11 +9,12 @@
 
 
 def name_triangle():
-    
+    sec_num = str(0)
     nameee = input("Enter your name: ")
     for first, secondd in enumerate(nameee):
         for first, second in enumerate(nameee + secondd):
-            print( second, end="")
+            sec_num += second
+            print( sec_num , end="")
         print("")
 
 name_triangle()
