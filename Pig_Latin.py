@@ -1,4 +1,11 @@
 nu = 'abcdef'
-naa = nu.slice[1:7:2]
+naa = nu.split()
 
 print(naa)
+
+
+aa = 23,45,26,22,56
+dee = sorted(aa)
+print(dee)
+aa.append(55)
+print(aa)
