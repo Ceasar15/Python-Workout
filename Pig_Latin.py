@@ -1,7 +1,5 @@
-nu = 'abcdef'
-naa = nu.split()
+nu = ['abcdef']
 
-print(naa)
 nu.append('h')
 print(nu)
 
